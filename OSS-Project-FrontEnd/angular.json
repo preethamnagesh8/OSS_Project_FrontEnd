@@ -28,7 +28,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "src/assets/scss/argon.scss"
             ],
             "scripts": []
           },
@@ -123,6 +124,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "OSS-Project-FrontEnd"
+    }
+  },
+  "defaultProject": "OSS-Project-FrontEnd",
+  "cli": {
+    "analytics": false
+  }
 }
